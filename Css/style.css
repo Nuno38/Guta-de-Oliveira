@@ -241,7 +241,7 @@ body {
      .mensagem {
      
         height: 520px;
-        width: 400px;
+        width: 412px;
         background-color: white;
         align-items: center;
          text-align: center;
@@ -374,7 +374,7 @@ body {
          color: var(--color-light);
          text-align: center;
          padding: 1em;
-         width: 400px;
+         width: 412px;
          
      }
      
