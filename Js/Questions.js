@@ -31,37 +31,37 @@ function showResult() {
                 resultText = "Seu perfil é!"+"\n"+"\nAmante.";
                 break;
             case 'B':
-                resultText = " Realista e Coletivo.";
+                resultText = " Seu perfil é!"+"\n"+"\nCara comum.";
                 break;
             case 'C':
-                resultText = " Inovador e Criativo.";
+                resultText = " Seu perfil é!"+"\n"+"\nCriador.";
                 break;
             case 'D':
-                resultText = " Sábio e Verdadeiro.";
+                resultText = " Seu perfil é!"+"\n"+"\nSábio";
                 break;
             case 'E':
-                resultText = " Livre e Satisfatório.";
+                resultText = " Seu perfil é!"+"\n"+"\nExplorador.";
                 break;
             case 'F':
-                resultText = " Revolucionário e Audacioso.";
+                resultText = " Seu perfil é!"+"\n"+"\nRebelde.";
                 break;
             case 'G':
-                resultText = "Poderoso e Responsável.";
+                resultText = "Seu perfil é!"+"\n"+"\nGovernante.";
                 break;
             case 'H':
-                resultText = " Corajoso e Vigoroso.";
+                resultText = " Seu perfil é!"+"\n"+"\nHerói.";
                 break;
             case 'I':
-                resultText = " Simples e Pacífico.";
+                resultText = " Seu perfil é!"+"\n"+"\nInocente.";
                 break;
             case 'J':
-                resultText = " Acolhedor e Compassivo.";
+                resultText = " Seu perfil é!"+"\n"+"\nPrestativo.";
                 break;
             case 'K':
-                resultText = " Transformador e Profundo.";
+                resultText = " Seu perfil é!"+"\n"+"\nMago.";
                 break;
             case 'L':
-                resultText = " Divertido e Leve.";
+                resultText = " Seu perfil é!"+"\n"+"\nLouco.";
                 break;
             default:
                 resultText = "Não foi possível determinar o tipo de negócio.";
