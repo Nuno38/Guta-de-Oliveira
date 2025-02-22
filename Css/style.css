@@ -33,7 +33,7 @@ body {
 .apresentacao__conteudo {
     margin: 10%;
     max-width: 600px;
-    margin-top: 300px;
+    margin-top: 250px;
 
     .apresentacao__titulo {
         font-family: "Inter", Sans-serif;
@@ -41,6 +41,9 @@ body {
         font-weight: 600;
         line-height: 1.22em;
         letter-spacing: -0.94px;
+        margin-top: -450px;
+        padding: 0,1em;
+        
         
     }
     
@@ -55,15 +58,13 @@ body {
     
     .img-guta {
     
-        width: 350px;
+        width: 550px;
         border-radius: 8px;
         border: 3px solid #321912;
         margin-left: 610px;
-        margin-top: -410px;
+        margin-top: -210px;
     }
 }
-
-
 
 .mensagem {
 
@@ -105,6 +106,7 @@ body {
     margin-left: 510px;
     font-family: "Bangers", serif;
     font-size: 46;
+    margin-left: 550px;
     
 }
 
@@ -178,7 +180,12 @@ body {
 }
  .text-zap{
     margin-left: -250px;
-    margin-top: 100px;
+    margin-top: 130px;
+
+    #img-whatsapp{
+        margin-top: -80px;
+        margin-left: 450px;
+    }
     
  }
 }
@@ -378,4 +385,590 @@ body {
          
      }
      
+    }
+    
+    @media (min-width:430px) and (max-width:932px){
+    
+     
+        .apresentacao {
+           align-items: center;
+           
+           margin-top: -260px;
+        }
+        
+        .apresentacao__conteudo {
+        
+            .apresentacao__titulo {
+                font-family: "Inter", Sans-serif;
+                font-size: 36px;
+                font-weight: 50px;
+                margin-top: -580px;
+                color: #fff;
+            }
+            .apresentacao__subtitulo{
+               color: #fff;
+            }
+            
+            #btn {
+                color: white;
+                width: 190px;
+            }
+            
+            #bnt-letra {
+                color: black;
+                font-size: 16px;
+                
+            }
+            
+            .img-guta {
+            
+                width: 355PX;
+                height: 660PX;
+                border-radius: 8px;
+                border: 3px solid #321912;
+                margin-left: -10px;
+                margin-top: 0px;
+                
+                
+            }
+        }
+        
+        .mensagem {
+        
+           height: 520px;
+           width: 430px;
+           background-color: white;
+           align-items: center;
+            text-align: center;
+            margin-top: 480px;
+        
+            #h2 {
+                
+                font-size: 26px;
+                
+               
+            }
+            
+            .text {
+                font-family: "Bangers", serif;
+                font-size: 28px;
+                font-weight: 800;
+                margin-top: 130px;
+            }
+        
+            #linha{
+                width: 200px;
+                align-items: center;
+                margin-left: 88px;
+                margin-top: -70px;
+                height: 8px;
+                
+            }
+        
+            .text_animado{
+                padding: 5%;
+            }
+        
+        }
+        
+        #titulo_teste{
+            
+            margin-left: 100px;
+            font-family: "Bangers", serif;
+            font-size: 26;
+            
+            
+        }
+        
+        .container {
+            
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+            flex-wrap: wrap;
+           
+            
+            
+        
+            .card {
+                width: 300px;
+                background-color: #fff;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease-in-out;
+                margin-left: 14px;
+            }
+            
+            .card:hover {
+                transform: scale(1.05);
+            }
+            
+            .card-content {
+                padding: 21px;
+            }
+            
+            .title {
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin-bottom: 10px;
+                align-items: center;
+                padding: 7%;
+                margin-left: 70px;
+            }
+            
+            .description {
+                font-size: 0.9rem;
+                margin-bottom: 20px;
+            }
+            
+            .cta {
+                display: space-around;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                text-align: center;
+                border-top: 2px solid black;
+                
+                
+            }
+            
+            .card.agencia { background-color: #f1f1f1; }
+            .card.bodyshop { background-color: #f5f5f5; }
+            .card.plataforma { background-color: #fff2cc; }
+            
+            .cta.agencia { background-color: black; color: #ffffff; }
+            .cta.bodyshop { background-color: black; color: #ffffff; }
+            .cta.plataforma { background-color: black; color: #ffcc00; }
+        }
+        .card-section3{
+        
+           padding: 18%;
+        
+           #text3{
+           margin-left: 0px;
+           padding: 1%;
+           font-size: 18px;
+        }
+         .text-zap{
+            margin-left: -10px;
+            margin-top: 100px;
+            font-size: 8px;
+            
+         }
+         #img-whatsapp{
+           width: 70px;
+           margin-left: 190px;
+           margin-top: -80px;
+         }
+        }
+        .roda__pe {
+            background-color: var(--cor-do-footer);
+            color: var(--color-light);
+            text-align: center;
+            padding: 1em;
+            width: 430px;
+            
+        }
+        
+    }
+
+    @media (min-width:768px) and (max-width:1024px){
+    
+     
+        .apresentacao {
+           align-items: center;
+           
+           margin-top: -260px;
+        }
+        
+        .apresentacao__conteudo {
+        
+            .apresentacao__titulo {
+                font-family: "Inter", Sans-serif;
+                font-size: 36px;
+                font-weight: 50px;
+                margin-top: -450px;
+                text-align: center;
+                color: #fff;
+            }
+            .apresentacao__subtitulo{
+               color: #fff;
+               text-align: center;
+            }
+            
+            #btn {
+                color: white;
+                width: 190px;
+            }
+            
+            #bnt-letra {
+                color: black;
+                font-size: 16px;
+                
+            }
+            
+            .img-guta {
+            
+                width: 505PX;
+                height: 660PX;
+                border-radius: 8px;
+                border: 3px solid #321912;
+                margin-left: 57px;
+                margin-top: 0px;
+                
+                
+                
+            }
+        }
+        
+        .mensagem {
+        
+           height: 520px;
+           width: 768px;
+           background-color: white;
+           align-items: center;
+            text-align: center;
+            margin-top: 480px;
+        
+            #h2 {
+                
+                font-size: 28px;
+                
+               
+            }
+            
+            .text {
+                font-family: "Bangers", serif;
+                font-size: 28px;
+                font-weight: 800;
+                margin-top: 130px;
+            }
+        
+            #linha{
+                width: 200px;
+                align-items: center;
+                margin-left: 280px;
+                margin-top: -130px;
+                height: 8px;
+                
+            }
+        
+            .text_animado{
+                padding: 5%;
+            }
+        
+        }
+        
+        #titulo_teste{
+            
+            
+            font-family: "Bangers", serif;
+            font-size: 36px;
+            text-align: center;
+            
+            
+        }
+        
+        .container {
+            
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+            flex-wrap: wrap;
+           
+            
+            
+        
+            .card {
+                width: 524px;
+                background-color: #fff;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease-in-out;
+                margin-left: 14px;
+            }
+            
+            .card:hover {
+                transform: scale(1.05);
+            }
+            
+            .card-content {
+                
+                text-align:center;
+            }
+            
+            .title {
+                font-size: 1.8rem;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-align:center;
+                margin-left: 15px;
+                
+            }
+            
+            .description {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                padding: 5px;
+            }
+            
+            .cta {
+                display: space-around;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                text-align: center;
+                border-top: 2px solid black;
+                
+                
+            }
+            
+            .card.agencia { background-color: #f1f1f1; }
+            .card.bodyshop { background-color: #f5f5f5; }
+            .card.plataforma { background-color: #fff2cc; }
+            
+            .cta.agencia { background-color: black; color: #ffffff; }
+            .cta.bodyshop { background-color: black; color: #ffffff; }
+            .cta.plataforma { background-color: black; color: #ffcc00; }
+        }
+        .card-section3{
+        
+           padding: 18%;
+        
+           #text3{
+           margin-left: 0px;
+           padding: 1%;
+           font-size: 32px;
+        }
+
+        #text-box{
+          font-size: 20px;
+        }
+         .text-zap{
+            margin-left: -10px;
+            margin-top: 100px;
+            font-size: 8px;
+            
+         }
+         #img-whatsapp{
+           width: 70px;
+           margin-left: 350px;
+           margin-top: -78px;
+           
+         }
+        }
+        .roda__pe {
+            background-color: var(--cor-do-footer);
+            color: var(--color-light);
+            text-align: center;
+            padding: 1em;
+            width: 768px;
+            
+        }
+        
+    }
+    
+    @media (min-width:1024px) and (max-width:1300px){
+    
+     
+        .apresentacao {
+           align-items: center;
+           
+           margin-top: -260px;
+        }
+        
+        .apresentacao__conteudo {
+        
+            .apresentacao__titulo {
+                font-family: "Inter", Sans-serif;
+                font-size: 36px;
+                font-weight: 50px;
+                margin-top: -450px;
+                text-align: center;
+                color: #fff;
+            }
+            .apresentacao__subtitulo{
+               color: #fff;
+               text-align: center;
+            }
+            
+            #btn {
+                color: white;
+                width: 190px;
+            }
+            
+            #bnt-letra {
+                color: black;
+                font-size: 16px;
+                
+            }
+            
+            .img-guta {
+            
+                width: 505PX;
+                height: 660PX;
+                border-radius: 8px;
+                border: 3px solid #321912;
+                margin-left: 155px;
+                margin-top: 0px;
+                
+                
+                
+            }
+        }
+        
+        .mensagem {
+        
+           height: 520px;
+           width: 1024px;
+           background-color: white;
+           align-items: center;
+            text-align: center;
+            margin-top: 480px;
+        
+            #h2 {
+                
+                font-size: 28px;
+                
+               
+            }
+            
+            .text {
+                font-family: "Bangers", serif;
+                font-size: 28px;
+                font-weight: 800;
+                margin-top: 130px;
+            }
+        
+            #linha{
+                width: 200px;
+                align-items: center;
+                margin-left: 410px;
+                margin-top: -180px;
+                height: 8px;
+                
+            }
+        
+            .text_animado{
+                padding: 4%;
+            }
+        
+        }
+        
+        #titulo_teste{
+            
+            
+            font-family: "Bangers", serif;
+            font-size: 36px;
+            margin-left: 68px;
+            
+            
+        }
+        
+        .container {
+            
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+            flex-wrap: wrap;
+           
+            
+            
+        
+            .card {
+                width: 524px;
+                background-color: #fff;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease-in-out;
+                margin-left: 14px;
+            }
+            
+            .card:hover {
+                transform: scale(1.05);
+            }
+            
+            .card-content {
+                
+                text-align:center;
+            }
+            
+            .title {
+                font-size: 1.8rem;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-align:center;
+                margin-left: 15px;
+                
+            }
+            
+            .description {
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                padding: 5px;
+            }
+            
+            .cta {
+                display: space-around;
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                text-align: center;
+                border-top: 2px solid black;
+                
+                
+            }
+            
+            .card.agencia { background-color: #f1f1f1; }
+            .card.bodyshop { background-color: #f5f5f5; }
+            .card.plataforma { background-color: #fff2cc; }
+            
+            .cta.agencia { background-color: black; color: #ffffff; }
+            .cta.bodyshop { background-color: black; color: #ffffff; }
+            .cta.plataforma { background-color: black; color: #ffcc00; }
+        }
+        .card-section3{
+        
+           padding: 18%;
+        
+           #text3{
+           margin-left: 0px;
+           padding: 1%;
+           font-size: 32px;
+        }
+
+        #text-box{
+          font-size: 20px;
+        }
+         .text-zap{
+            margin-left: -10px;
+            margin-top: 100px;
+            font-size: 8px;
+            
+         }
+         #img-whatsapp{
+           width: 70px;
+           margin-left: 450px;
+           margin-top: -78px;
+           
+         }
+        }
+        .roda__pe {
+            background-color: var(--cor-do-footer);
+            color: var(--color-light);
+            text-align: center;
+            padding: 1em;
+            width: 1024px;
+            
+        }
+        
     }
