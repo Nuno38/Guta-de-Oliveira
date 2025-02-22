@@ -1,9 +1,9 @@
 const phrases = [
-  "Alinhar sua imagem à sua essência,",
-  "Construir conexões estratégicas,",
-  "Destacar-se em sua área de atuação,",
-  "Projetar sucesso e autoridade,",
-  "Impactar nas redes sociais,",
+  "Alinhar sua imagem à sua essência.",
+  "Construir conexões estratégicas.",
+  "Destacar-se em sua área de atuação.",
+  "Projetar sucesso e autoridade.",
+  "Impactar nas redes sociais.",
 ];
 
 const textContainer = document.getElementById("animatedText");
