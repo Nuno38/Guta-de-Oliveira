@@ -1,4 +1,3 @@
-
 :root {
     --Cor-de-fundo: #fff;
     --tamanho-da-letra: 18px;
@@ -9,7 +8,9 @@
     --color-light: #e9d8a6;
     --color-primary: #ff4c24;
 }
-
+html {
+    -webkit-text-size-adjust: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -216,7 +217,9 @@ body {
 
 @media (min-width:310px) and (max-width:500px) {
 
-
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
     .apresentacao {
         align-items: center;
 
@@ -428,7 +431,9 @@ body {
 
 @media (min-width:410px) and (max-width:500px) {
 
-
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
     .apresentacao {
         align-items: center;
 
@@ -639,9 +644,11 @@ body {
 }
 
 
-@media (min-width:430px) and (max-width:932px) {
+@media (max-width:932px) {
 
-
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
     .apresentacao {
         align-items: center;
 
@@ -1297,4 +1304,3 @@ body {
     }
 
 }
-
