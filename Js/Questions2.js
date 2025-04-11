@@ -219,20 +219,20 @@ function showResult() {
         }
         if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("B")) &&
             (answers["question2"]?.includes("L") || answers["question2"]?.includes("D")) &&
-            (answers["question3"]?.includes("L") || answers["question3"]?.includes("L"))
+            (answers["question3"]?.includes("L") || answers["question3"]?.includes("J"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nLouco, Cara comum, Sábio, Louco";
+            resultText = "Seu perfil é!" + "\n\nLouco, Cara comum, Sábio, Prestativo";
 
         } ////--------------------- Terceira verificação ----------------------------------
         if (
             (answers["question1"]?.includes("A") || answers["question1"]?.includes("D")) &&
             (answers["question2"]?.includes("A") || answers["question2"]?.includes("E")) &&
-            (answers["question3"]?.includes("A") || answers["question3"]?.includes("A"))
+            (answers["question3"]?.includes("A") || answers["question3"]?.includes("H"))
 
 
         ) {
-            resultText = "Seu perfil é!" + "\n\nAmante, Sábio, Explorador ";
+            resultText = "Seu perfil é!" + "\n\nAmante, Herói, Sábio, Explorador ";
         }
         if ((answers["question1"]?.includes("B") || answers["question1"]?.includes("C")) &&
                 (answers["question2"]?.includes("B") || answers["question2"]?.includes("E")) &&
@@ -326,12 +326,12 @@ function showResult() {
 
         if (
             (answers["question1"]?.includes("A") || answers["question1"]?.includes("L")) &&
-            (answers["question2"]?.includes("A") || answers["question2"]?.includes("A")) &&
+            (answers["question2"]?.includes("A") || answers["question2"]?.includes("B")) &&
             (answers["question3"]?.includes("A") || answers["question3"]?.includes("G"))
 
 
         ) {
-            resultText = "Seu perfil é!" + "\n\nAmante, Louco, Governante";
+            resultText = "Seu perfil é!" + "\n\nAmante, Louco, Cara comum, Governante";
         }
         if ((answers["question1"]?.includes("B") || answers["question1"]?.includes("J")) &&
             (answers["question2"]?.includes("B") || answers["question2"]?.includes("L")) &&
@@ -397,28 +397,28 @@ function showResult() {
             resultText = "Seu perfil é!" + "\n\nInocente, Louco, Amante, Governante";
 
         }
-        if ((answers["question1"]?.includes("J") || answers["question1"]?.includes("B")) &&
-                (answers["question2"]?.includes("J") || answers["question2"]?.includes("D")) &&
-                (answers["question3"]?.includes("J") || answers["question3"]?.includes("L"))
+        if ((answers["question1"]?.includes("J") || answers["question1"]?.includes("K")) &&
+                (answers["question2"]?.includes("J") || answers["question2"]?.includes("A")) &&
+                (answers["question3"]?.includes("J") || answers["question3"]?.includes("G"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nPrestativo, Cara comum, Sábio, Louco";
+            resultText = "Seu perfil é!" + "\n\nPrestativo, Mago, Amante, Governante";
 
         }
-        if ((answers["question1"]?.includes("K") || answers["question1"]?.includes("B")) &&
-                (answers["question2"]?.includes("K") || answers["question2"]?.includes("D")) &&
-                (answers["question3"]?.includes("K") || answers["question3"]?.includes("L"))
+        if ((answers["question1"]?.includes("K") || answers["question1"]?.includes("L")) &&
+                (answers["question2"]?.includes("K") || answers["question2"]?.includes("A")) &&
+                (answers["question3"]?.includes("K") || answers["question3"]?.includes("H"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nMago, Cara comum, Sábio, Louco";
+            resultText = "Seu perfil é!" + "\n\nMago, Louco, Amante, Herói";
 
         }
-        if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("B")) &&
-            (answers["question2"]?.includes("L") || answers["question2"]?.includes("D")) &&
-            (answers["question3"]?.includes("L") || answers["question3"]?.includes("L"))
+        if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("K")) &&
+            (answers["question2"]?.includes("L") || answers["question2"]?.includes("A")) &&
+            (answers["question3"]?.includes("L") || answers["question3"]?.includes("H"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nLouco, Cara comum, Sábio, Louco";
+            resultText = "Seu perfil é!" + "\n\nLouco, Mago, Amante, Herói";
 
         } //// ----------------------quinta verificação------------------------------------- 
         if (
@@ -517,7 +517,7 @@ function showResult() {
 
             resultText = "Seu perfil é!" + "\n\nLouco, Sábio, Rebelde, Cara comum";
 
-        } // -----------------------sexto verificação ----------------------------------------------
+        } // -----------------------sexta verificação ----------------------------------------------
         if (
             (answers["question1"]?.includes("A") || answers["question1"]?.includes("F")) &&
             (answers["question2"]?.includes("A") || answers["question2"]?.includes("G")) &&
@@ -601,18 +601,18 @@ function showResult() {
         }
         if ((answers["question1"]?.includes("K") || answers["question1"]?.includes("E")) &&
                 (answers["question2"]?.includes("K") || answers["question2"]?.includes("G")) &&
-                (answers["question3"]?.includes("K") || answers["question3"]?.includes("C"))
+                (answers["question3"]?.includes("K") || answers["question3"]?.includes("I"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nMago, Explorador, Governante, Criador";
+            resultText = "Seu perfil é!" + "\n\nMago, Explorador, Governante, Inocente";
 
         }
         if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("E")) &&
                 (answers["question2"]?.includes("L") || answers["question2"]?.includes("G")) &&
-                 (answers["question3"]?.includes("L") || answers["question3"]?.includes("C"))
+                 (answers["question3"]?.includes("L") || answers["question3"]?.includes("I"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nLouco, Explorador, Governante, Criador";
+            resultText = "Seu perfil é!" + "\n\nLouco, Explorador, Governante, Inocente";
 
         } // ---------------------------sétima verificação -----------------------------
         if (
@@ -706,10 +706,10 @@ function showResult() {
         }
         if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("F")) &&
                 (answers["question2"]?.includes("L") || answers["question2"]?.includes("H")) &&
-                 (answers["question3"]?.includes("L") || answers["question3"]?.includes("D"))
+                 (answers["question3"]?.includes("L") || answers["question3"]?.includes("G"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nLouco, Rebelde, Herói, Sábio";
+            resultText = "Seu perfil é!" + "\n\nLouco, Rebelde, Herói, Governante";
 
         } 
         //---------------------------oitava verificação ------------------------------
@@ -789,7 +789,7 @@ function showResult() {
         }
         if ((answers["question1"]?.includes("J") || answers["question1"]?.includes("G")) &&
                 (answers["question2"]?.includes("J") || answers["question2"]?.includes("I")) &&
-                (answers["question3"]?.includes("J") || answers["question3"]?.includes("C"))
+                (answers["question3"]?.includes("J") || answers["question3"]?.includes("H"))
         ) {
 
             resultText = "Seu perfil é!" + "\n\nPrestativo, Governante, Inocente, Criador";
@@ -803,12 +803,12 @@ function showResult() {
             resultText = "Seu perfil é!" + "\n\nMago, Governante, Inocente, Criador";
 
         }
-        if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("G")) &&
-                (answers["question2"]?.includes("L") || answers["question2"]?.includes("I")) &&
+        if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("H")) &&
+                (answers["question2"]?.includes("L") || answers["question2"]?.includes("L")) &&
                  (answers["question3"]?.includes("L") || answers["question3"]?.includes("C"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nLouco, Governante, Inocente, Criador";
+            resultText = "Seu perfil é!" + "\n\nLouco, Herói, Louco, Criador";
 
         } 
         //-------------------------------nona verificação---------------------------------
@@ -886,11 +886,11 @@ function showResult() {
 
         }
         if ((answers["question1"]?.includes("J") || answers["question1"]?.includes("H")) &&
-                (answers["question2"]?.includes("J") || answers["question2"]?.includes("j")) &&
-                (answers["question3"]?.includes("J") || answers["question3"]?.includes("D"))
+                (answers["question2"]?.includes("J") || answers["question2"]?.includes("B")) &&
+                (answers["question3"]?.includes("J") || answers["question3"]?.includes("I"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nPrestativo, Herói, Prestativo, Sábio";
+            resultText = "Seu perfil é!" + "\n\nPrestativo, Herói, Cara comum, Inocente";
 
         }
         if ((answers["question1"]?.includes("K") || answers["question1"]?.includes("H")) &&
@@ -992,14 +992,14 @@ function showResult() {
 
         }
         if ((answers["question1"]?.includes("K") || answers["question1"]?.includes("I")) &&
-                (answers["question2"]?.includes("K") || answers["question2"]?.includes("K")) &&
+                (answers["question2"]?.includes("K") || answers["question2"]?.includes("B")) &&
                 (answers["question3"]?.includes("K") || answers["question3"]?.includes("E"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nMago, Inocente, Mago, Explorador";
+            resultText = "Seu perfil é!" + "\n\nMago, Inocente, Cara comum, Explorador";
 
         }
-        if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("I")) &&
+        if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("")) &&
                 (answers["question2"]?.includes("L") || answers["question2"]?.includes("K")) &&
                  (answers["question3"]?.includes("L") || answers["question3"]?.includes("E"))
         ) {
@@ -1098,11 +1098,11 @@ function showResult() {
 
         }
         if ((answers["question1"]?.includes("L") || answers["question1"]?.includes("J")) &&
-                (answers["question2"]?.includes("L") || answers["question2"]?.includes("L")) &&
+                (answers["question2"]?.includes("L") || answers["question2"]?.includes("B")) &&
                  (answers["question3"]?.includes("L") || answers["question3"]?.includes("F"))
         ) {
 
-            resultText = "Seu perfil é!" + "\n\nLouco, Prestativo, Rebelde";
+            resultText = "Seu perfil é!" + "\n\nLouco, Prestativo, Cara comum, Rebelde";
 
         }
         
